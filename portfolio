@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Final portfolio title</title>
+
+<style>
+    body{
+        background-color: black;
+        color:white;
+    }
+    .text{
+        flex-grow: 100;
+        text-align: right;
+        background-color:cyan;
+        margin-top: 200px;
+        padding:10px;
+    }
+    header a{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top:100px;
+        font-size: 20px;
+    }
+   
+    .container1{
+        height:100px;
+        width:100%;
+        border:2px solid white;
+        margin: 20px;
+        
+    }
+    .position-absolute{
+        position:absolute;
+        top:0;
+        position:fixed;
+    }
+    
+    .container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 500px;
+        margin-top:0%;
+        align-items: top;
+        border-radius: 100%;
+        border: 3px solid green;
+        overflow: hidden;
+        background-color:lightskyblue;
+    }
+
+    .myimg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        max-height: 100%;
+        background-color: aquamarine;
+    }
+    h1{
+        color:gold;
+        align-items: center;
+    }
+    .details h1 {
+        font-size: 50px;
+    }
+    .details p {
+        font-size: 25px;
+        color:azure;
+        margin-left: 50px;
+    }
+    .skills {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .skills h2 {
+        color: darkgoldenrod;
+        font-size: 50px;
+    }
+    .skills li {
+        margin-bottom: 10px;
+    }
+    .social-links img {
+        width: 20px;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+    .social-links a {
+        color: #fff;
+        text-decoration:darksalmon;
+        margin: 0 10px;
+    }
+    .container3 {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color:navajowhite;
+        padding: 20px;
+        box-shadow:greenyellow;
+    }
+    .section {
+        margin-bottom: 20px;
+        padding: 20px;
+        border: 2px solid crimson;
+        border-radius: 8px;
+    }
+    .section h2 {
+        color:black;
+        margin-top: 0;
+    }
+    .grade {
+        margin-bottom: 10px;
+        color:black;
+    }
+    .grade p {
+        margin: 5px 0;
+        color:black;
+    }
+    .achievement {
+        margin-bottom: 200px;
+        background-color:cornflowerblue;
+        border-radius: 20px;
+        padding:20px;
+        box-shadow:darkgoldenrod;
+        font-style: italic;
+    }
+    .achievement h2 {
+        margin-top: 0;
+    }
+    .achievement p {
+        margin-bottom:10px;
+    }
+    .view-more {
+        text-align: center;
+    }
+    .view-more a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+    <div class="text">
+        <header>
+            <a href="#home">Home</a>
+            <a href="#dharani">Technical Skills</a>
+            <a href="#hello">Social Links</a>
+            <a href="#education">Education</a>
+            <a href="#achievement">Achievements</a>
+        </header>
+    </div>
+    <div class="container1 position-absolute"><h1>DHARANI's PORTFOLIO </h1></div> 
+    <br><br>
+    <div class="container">
+        <img src="WhatsApp Image 2024-02-27 at 22.23.19.jpeg" alt="Your Image" class="myimg">
+    </div>
+    <div class="details">
+        <h1>I am <span style="color:darkgoldenrod">Dharani</span></h1>
+        <p>Second Year ECE </p>
+        <p>Sri Eshwar college of Engineering</p>
+        <p>Developer</p>
+    </div> 
+    <div class="skills" id="dharani">
+        <h2>Technical Skills:</h2>
+        <ul>
+            <li>Java<img src="https://download.logo.wine/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.png"width="50"></li>
+            <li>C  <img src="https://th.bing.com/th/id/OIP.-wK8kSbegCP7kdE8hVjRCQAAAA?rs=1&pid=ImgDetMain"width="20"></li>
+            <li>Python  <img src="https://th.bing.com/th/id/OIP.nUYOwBlsmc2xTLmGRzBTCQHaHa?rs=1&pid=ImgDetMain"width="20"></li>
+            <li>HTML  <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-file-html-shiny-icon-svg-wikimedia-commons-11.png"width="20"></li>
+            <li>CSS  <img src="https://th.bing.com/th/id/OIP.tAvAD5lCtDJSjywplxd37QHaEo?rs=1&pid=ImgDetMain"width="20"></li>
+        </ul>
+    
+    <div class="social-links" id="hello">
+        <h2>Social Links:</h2>
+        <img src="https://th.bing.com/th/id/R.d51da72e1f4675ba5aef9c956ed4c562?rik=FmeldpqK57Pqdw&riu=http%3a%2f%2fwww.freepnglogos.com%2fuploads%2fofficial-linkedin-logo----17.png&ehk=D2%2b5urO8gseetYQhxdSGq2qyTRbSvoavbbmoGEuOepo%3d&risl=&pid=ImgRaw&r=0"width="20" alt="LinkedIn">
+        <a href="https://www.linkedin.com/in/dharani-g-b184b325a/" target="_blank">visit my linkedin!.com
+            </a>
+           <img src="https://th.bing.com/th/id/OIP.ymdLUYayjisO2uU47lOI0AAAAA?rs=1&pid=ImgDetMain"alt="leetcode"width="20">
+        <a href="https://leetcode.com/dharanig2809/" target="_blank">visitmy leetcode.com</a>
+        <img src="https://th.bing.com/th/id/OIP.9Uw2pTqesoxQH7uiqVsrIgAAAA?rs=1&pid=ImgDetMain" alt="Phone"width="20"></a>
+        <a href="https://github.com/"target="_blank">visitmygitup.com
+            
+    </a>
+    </div>
+    </div>
+    <br>
+    <br>
+    <div class="container3">
+      <div class="section"id="education">
+        <h2>Education</h2>
+        <div class="grade">
+          <h3>Lourde Matha Covent Matric Hr. Sec. School</h3>
+          <p><strong>10th Grade:</strong> Score: 86.4%</p>
+          <p><strong>12th Grade:</strong> Score: 82%</p>
+        </div>
+      </div>
+    </div>div>
+    <h2>Achievements</h2>
+    <div class="achievement"id="achievements">
+           
+        <h1>Automatic Cart Billing</h1>
+        <p>Secured First position in Contest in the Project Expo held at Sri Eshwar College of Engineering-Coimbatore on 5th November 2023 </p>
+        <div class="view-more">View more</div>
+    </div>
+    </div>
+  
+    </body>
+    </html>
